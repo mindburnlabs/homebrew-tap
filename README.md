@@ -43,17 +43,17 @@ brew uninstall mindburnlabs/tap/helm
 brew install helm
 ```
 
-## Intended Public Namespace
+## Published Namespace
 
-The quickstart target remains:
+The public quickstart target is:
 
 ```sh
-brew install mindburn/tap/helm
+brew install mindburnlabs/tap/helm
 ```
 
-That requires the GitHub repository `mindburn/homebrew-tap`. Homebrew maps
-repositories named `homebrew-*` to short tap names, so `mindburn/homebrew-tap`
-becomes `mindburn/tap`.
+This is backed by the GitHub repository `mindburnlabs/homebrew-tap`. Homebrew
+maps repositories named `homebrew-*` to short tap names, so
+`mindburnlabs/homebrew-tap` becomes `mindburnlabs/tap`.
 
 ## Other Formulae
 
