@@ -24,6 +24,25 @@ This installs the HELM OSS boundary CLI from release binaries published at:
 
 https://github.com/Mindburn-Labs/helm-oss/releases
 
+## Kubernetes Helm Conflict
+
+Homebrew core also ships a formula named `helm` for Kubernetes Helm. Homebrew
+does not allow two installed formulae with the same name from different taps.
+
+If Kubernetes Helm is already installed, replace it with HELM OSS:
+
+```sh
+brew uninstall helm
+brew install mindburnlabs/tap/helm
+```
+
+To switch back later:
+
+```sh
+brew uninstall mindburnlabs/tap/helm
+brew install helm
+```
+
 ## Intended Public Namespace
 
 The quickstart target remains:
