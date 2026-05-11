@@ -8,12 +8,6 @@ Formulae for Mindburn Labs command-line tools.
 brew install mindburnlabs/tap/helm
 ```
 
-The full direct form also works:
-
-```sh
-brew install mindburnlabs/homebrew-tap/helm
-```
-
 Then run:
 
 ```sh
@@ -42,18 +36,6 @@ To switch back later:
 brew uninstall mindburnlabs/tap/helm
 brew install helm
 ```
-
-## Published Namespace
-
-The public quickstart target is:
-
-```sh
-brew install mindburnlabs/tap/helm
-```
-
-This is backed by the GitHub repository `mindburnlabs/homebrew-tap`. Homebrew
-maps repositories named `homebrew-*` to short tap names, so
-`mindburnlabs/homebrew-tap` becomes `mindburnlabs/tap`.
 
 ## Other Formulae
 
