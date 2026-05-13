@@ -9,20 +9,20 @@ class HelmAiKernel < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Mindburn-Labs/helm-ai-kernel/releases/download/v0.5.0/helm-ai-kernel-darwin-arm64"
-      sha256 "fc9a948ba63a6eec63f29658835fcd14630433639f3dfc60e9fd742abf367523"
+      sha256 "a42b04e9d537608bb6fe2a19fc355b1e848ba84a11b3661508643c6eb487daa0"
     else
       url "https://github.com/Mindburn-Labs/helm-ai-kernel/releases/download/v0.5.0/helm-ai-kernel-darwin-amd64"
-      sha256 "d796eb395bddb71d949ed19bd86966d2202733341ce2818515ced2c7800686ce"
+      sha256 "36cdcc6fe43e2ee61bd5a602ea82c0880dcfc95c1f69564bdd4366ce997e39a7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Mindburn-Labs/helm-ai-kernel/releases/download/v0.5.0/helm-ai-kernel-linux-arm64"
-      sha256 "f4683f8754e9228e5d6c286e4caed4acd716dc0ea738781c5d5edbd07b69d4ae"
+      sha256 "ef7372f02c3ffcf90e6cec3fb5470cf718516f8ee04d34c170881232b7317a1c"
     else
       url "https://github.com/Mindburn-Labs/helm-ai-kernel/releases/download/v0.5.0/helm-ai-kernel-linux-amd64"
-      sha256 "c642a2b693f4b919668e1f90f6475c94c7818c13dfea36397255d34b535c8c0c"
+      sha256 "d0a5693b4fef90e3cd3bb1f84cabfc1bab4f9b94b266dcf59448e6bf83b912cc"
     end
   end
 
