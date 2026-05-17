@@ -2,7 +2,7 @@
 
 Formulae for Mindburn Labs command-line tools.
 
-## Install HELM OSS
+## Install HELM AI Kernel
 
 ```sh
 brew install mindburnlabs/tap/helm
@@ -14,16 +14,16 @@ Then run:
 helm serve --policy ./release.high_risk.v3.toml
 ```
 
-This installs the HELM OSS boundary CLI from release binaries published at:
+This installs the HELM AI Kernel boundary CLI from release binaries published at:
 
-https://github.com/Mindburn-Labs/helm-oss/releases
+https://github.com/Mindburn-Labs/helm-ai-kernel/releases
 
 ## Kubernetes Helm Conflict
 
 Homebrew core also ships a formula named `helm` for Kubernetes Helm. Homebrew
 does not allow two installed formulae with the same name from different taps.
 
-If Kubernetes Helm is already installed, replace it with HELM OSS:
+If Kubernetes Helm is already installed, replace it with HELM AI Kernel:
 
 ```sh
 brew uninstall helm
